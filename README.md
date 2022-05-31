@@ -15,6 +15,7 @@ Link Python to the database by creating a SQLAlchemy session.
 
 Important: Don't forget to close out your session at the end of your notebook.
 
+--------------------------------------------------------------------------------------------------
 
 Precipitation Analysis
 
@@ -37,6 +38,7 @@ Plot the results by using the DataFrame plot method
 Use Pandas to print the summary statistics for the precipitation data.
 
 
+--------------------------------------------------------------------------------------------------
 
 Station Analysis
 
@@ -68,7 +70,7 @@ Plot the results as a histogram with bins=12
 Close out your session.
 
 
-
+--------------------------------------------------------------------------------------------------
 
 Part 2: Design Your Climate App
 
@@ -121,7 +123,8 @@ You will need to join the station and measurement tables for some of the queries
 
 Use Flask jsonify to convert your API data into a valid JSON response object.
 
-
+--------------------------------------------------------------------------------------------------
+  
 
 Bonus: Other Recommended Analyses
 
@@ -153,7 +156,8 @@ Use the t-test to determine whether the difference in means, if any, is statisti
   
 Why?
 
-
+--------------------------------------------------------------------------------------------------
+  
 
 Temperature Analysis 2
 
@@ -182,6 +186,7 @@ Use the average temperature as the bar height (y value).
 Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
 
+  --------------------------------------------------------------------------------------------------
 
 Daily Rainfall Average
 
@@ -196,7 +201,8 @@ Calculate the rainfall per weather station using the previous year's matching da
 Sort this in descending order by precipitation amount, and list the station, name, latitude, longitude, and elevation.
 
 
-
+--------------------------------------------------------------------------------------------------
+  
 
 Daily Temperature Normals
 
